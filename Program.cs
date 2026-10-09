@@ -15,6 +15,7 @@
 //     Console.WriteLine(grade);
 //     sum += grade;
 // }
+// System.Console.WriteLine($"Средний балл - {sum / grades.Length}");
 
 // double average = (double)sum / grades.Length;
 // Console.WriteLine($"Сумма: {sum}");
@@ -148,9 +149,29 @@
 // System.Console.WriteLine($"Пятерок всего - {counter}");
 
 // Вариант 8
-string word = "Хакер в реках";
+// string word = "Хакер в реках";
 
-for (int i = word.Length - 1; i >= 0; i--)
-{
-    Console.Write(word[i]);
-}
+// for (int i = word.Length - 1; i >= 0; i--)
+// {
+//     Console.Write(word[i]);
+// }
+
+
+
+// string[] names = { "Вась", "Василий", "Василек" };
+// int[] grades = { 2, 3, 5 };
+// string maxName = "";
+// int max = 0;
+// int sum = 0;
+// for (int i = 0; i < names.Length; i++)
+// {
+//     System.Console.WriteLine($"{names[i]} - {grades[i]}");
+//     if (max < grades[i])
+//     {
+//         max = grades[i];
+//         maxName = names[i];
+//     }
+//     sum += grades[i];
+// }
+// System.Console.WriteLine($"Средний балл по классу - {sum / grades.Length}");
+// System.Console.WriteLine($"Ученик с максимальной оценкой - {maxName}");
